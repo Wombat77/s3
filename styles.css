@@ -1,0 +1,90 @@
+/*
+*
+* CSS styles for the New Zealand project
+*
+*/
+
+body {
+    max-width: 1260px;
+    margin: auto;
+}
+
+#header {
+    text-align: center;
+    background-image: url("https://www.eit.ac.nz/wp-content/uploads/2014/03/auckland.jpg");
+
+}
+#header h2 {
+    font-size: 4em;
+    margin: 0;
+    padding: 1.7em 0;
+}
+#header h3 {
+    font-size: 3em;
+    margin: 0;
+}
+#header h4 {
+    font-size: 2em;
+    color: springgreen;
+    font-style: italic;
+    margin: 0;
+}
+
+.author {
+    text-align: center;
+}
+.author img {
+    border:4px solid seagreen;
+    border-radius: 50%;
+    margin-top: -50px;
+}
+.author p {
+    font-size: 0.9em;
+    font-style: italic;
+    color: goldenrod;
+
+}
+
+.article {
+    margin: auto;
+    width: 70 %;
+
+
+}
+.article figure {
+    margin-left: 0%;
+}
+.article figure img {
+    width: 80%
+}
+.article figure figcaption {
+    margin-left: -12em;
+    width: 11.5em;
+    float: left;
+}
+
+#map {
+}
+
+#footer {
+    padding: 1em 0 3em 0;
+}
+#footer .back {
+}
+#footer .next {
+    float: right;
+}
+
+a:link, a:visited {
+    color: black;
+}
+.gray, .gray a:link, .gray a:visited {
+}
+.white, .white a:link, .white a:visited {
+    color: white; 
+}
+
+@media only screen and (max-width: 900px) {
+    .article figure figcaption {
+    }
+}
